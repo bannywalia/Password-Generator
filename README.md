@@ -11,3 +11,9 @@ After clicking, it will take you to a series of prompts, which includes:
 Program will then generate a random password based of the criteria the user has selected.
 
 link to application
+https://bannywalia.github.io/Password-Generator/
+
+![Project Screenshot](./assets/images/prompt.png)
+## Deployed website and showing the prompts
+![Project Screenshot](./assets/images/pw.png)
+## Password Generated
