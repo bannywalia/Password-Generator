@@ -54,15 +54,17 @@ var randomNumber = function (min, max) {
 
   return value;
 }
-var criteriaPrompts = function () {
 
+// the criteriaPrompts function is started with the if functions
+var criteriaPrompts = function () {
+//this is to determine length of password
   while (passCriteria.size < 8 || passCriteria.size > 128) {
     passCriteria.size = window.prompt("How long should the password be? (8 - 128 characters)")
     if (passCriteria.size < 8 || passCriteria.size > 128) {
       window.alert("Please enter a password size between 8 and 128 characters!");
     }
   }
-
+// to determine any lowercase for password
   while (passCriteria.lowercase === 0 && passCriteria.uppercase === 0 && passCriteria.numeric === 0 && passCriteria.special === 0) {
     var lowercaseConfirm = window.confirm("Would you like to include lowercase letters?");
     if (lowercaseConfirm) {
